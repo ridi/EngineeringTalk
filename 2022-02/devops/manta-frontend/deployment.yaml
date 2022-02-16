@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: manta-frontend
+  name: manta-frontend
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: manta-frontend
+  template:
+    metadata:
+      labels:
+        app: manta-frontend
+    spec:
+      containers:
+      - image: gcr.io/intricate-dryad-341313/manta-frontend
+        name: manta-frontend
