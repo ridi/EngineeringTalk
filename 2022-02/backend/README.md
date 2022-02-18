@@ -1,1 +1,1 @@
-### Node API Server
+### Manta API Server (Node)
