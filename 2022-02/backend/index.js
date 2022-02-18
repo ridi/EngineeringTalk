@@ -1,7 +1,7 @@
 const http = require('http');
 const PORT = 8000;
 http.createServer((req, res) => {
-	res
+  res
     .writeHead(200, { 'Access-Control-Allow-Origin': '*' })
     .end('{"message": "Hello, RIDUS!"}');
 }).listen(PORT);
