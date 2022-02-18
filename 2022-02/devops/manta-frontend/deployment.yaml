@@ -16,5 +16,5 @@ spec:
         app: manta-frontend
     spec:
       containers:
-      - image: gcr.io/intricate-dryad-341313/manta-frontend
+      - image: gcr.io/manta-tutorial/manta-frontend
         name: manta-frontend
