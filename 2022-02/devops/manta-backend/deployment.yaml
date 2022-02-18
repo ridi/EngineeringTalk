@@ -16,5 +16,5 @@ spec:
         app: manta-backend
     spec:
       containers:
-      - image: gcr.io/manta-tutorial/manta-backend
+      - image: gcr.io/engineering-talk/manta-backend
         name: manta-backend
